@@ -1,0 +1,137 @@
+{
+  "store": {
+    "name": "Sultan Parfume",
+    "currency": "IDR"
+  },
+  "products": [
+    {
+      "id": "SP-ORD-050",
+      "name": "Oud Royale",
+      "category": "Best seller",
+      "size": "50ml",
+      "price": 590000,
+      "stock": 186,
+      "status": "Aman"
+    },
+    {
+      "id": "SP-VLM-030",
+      "name": "Velvet Musk",
+      "category": "Wanita",
+      "size": "30ml",
+      "price": 385000,
+      "stock": 42,
+      "status": "Menipis"
+    },
+    {
+      "id": "SP-GSF-050",
+      "name": "Golden Saffron",
+      "category": "Unisex",
+      "size": "50ml",
+      "price": 725000,
+      "stock": 98,
+      "status": "Aman"
+    },
+    {
+      "id": "SP-MJR-050",
+      "name": "Majestic Rose",
+      "category": "Wanita",
+      "size": "50ml",
+      "price": 465000,
+      "stock": 18,
+      "status": "Kritis"
+    }
+  ],
+  "orders": [
+    {
+      "id": "SP-24081",
+      "customer": "Naura A.",
+      "items": [
+        "Oud Royale",
+        "Oud Royale"
+      ],
+      "total": 1180000,
+      "status": "Selesai"
+    },
+    {
+      "id": "SP-24080",
+      "customer": "Fikri Ramadhan",
+      "items": [
+        "Velvet Musk"
+      ],
+      "total": 385000,
+      "status": "Diproses"
+    },
+    {
+      "id": "SP-24079",
+      "customer": "Sarah Lim",
+      "items": [
+        "Gift Set Sultan"
+      ],
+      "total": 790000,
+      "status": "Selesai"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUS-001",
+      "name": "Naura A.",
+      "phone": "081234567890",
+      "tier": "VIP",
+      "orders": 8,
+      "spent": 4720000
+    },
+    {
+      "id": "CUS-002",
+      "name": "Fikri Ramadhan",
+      "phone": "081298765432",
+      "tier": "Regular",
+      "orders": 3,
+      "spent": 1185000
+    },
+    {
+      "id": "CUS-003",
+      "name": "Sarah Lim",
+      "phone": "081377788899",
+      "tier": "VIP",
+      "orders": 6,
+      "spent": 3280000
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-001",
+      "name": "PT Aroma Nusantara",
+      "contact": "081211122233",
+      "leadTime": "7 hari"
+    },
+    {
+      "id": "SUP-002",
+      "name": "Essence Lab Indonesia",
+      "contact": "081244455566",
+      "leadTime": "10 hari"
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "id": "PO-1001",
+      "supplier": "PT Aroma Nusantara",
+      "items": 7,
+      "total": 12400000,
+      "status": "Menunggu persetujuan"
+    }
+  ],
+  "vouchers": [
+    {
+      "code": "SULTAN10",
+      "type": "percent",
+      "value": 10,
+      "active": true
+    },
+    {
+      "code": "WELCOME50",
+      "type": "fixed",
+      "value": 50000,
+      "active": true
+    }
+  ]
+}

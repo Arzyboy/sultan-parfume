@@ -1,0 +1,8 @@
+{
+  "name": "sultan-parfume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sultan Parfume company profile, admin dashboard and POS MVP",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=18"}
+}
